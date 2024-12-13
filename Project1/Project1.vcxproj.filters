@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\filter">
+      <UniqueIdentifier>{88dab520-1b53-4642-bba0-9b807e6951d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\fileprocess">
+      <UniqueIdentifier>{0e5172e3-1b09-4520-9b45-a52a9604deaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\calibrations">
+      <UniqueIdentifier>{a32d612a-eb87-46c8-b568-333efa4824dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\convert">
+      <UniqueIdentifier>{fa6e1024-ccb7-4ddb-b440-0b473f685c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\datacenter">
+      <UniqueIdentifier>{b0300893-320e-4059-bc50-94bfb0362e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ussheader">
+      <UniqueIdentifier>{08de07ba-c5e3-4caf-a72c-f8ecf4fa8021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\geometry">
+      <UniqueIdentifier>{11dc245e-a707-476f-9214-75c271bdda55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\bevprocess">
+      <UniqueIdentifier>{c46e3595-d5e4-4bee-af57-674e198e79d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\viewer">
+      <UniqueIdentifier>{bb5e4748-d79f-48d1-b591-e9a33a149e94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="datacenter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="filterhandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lidarlabelprocess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="seghandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fileprocess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ussdatacenter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="featurehandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bevprocess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pcl_viewer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="argumentpass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cppheader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base_struct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="filterhandler.h">
+      <Filter>头文件\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="lidarlabelprocess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="seghandler.h">
+      <Filter>头文件\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fileprocess.h">
+      <Filter>头文件\fileprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="lidarcali.h">
+      <Filter>头文件\calibrations</Filter>
+    </ClInclude>
+    <ClInclude Include="lidarconvert.h">
+      <Filter>头文件\convert</Filter>
+    </ClInclude>
+    <ClInclude Include="poconvert.h">
+      <Filter>头文件\convert</Filter>
+    </ClInclude>
+    <ClInclude Include="dataconvert.h">
+      <Filter>头文件\convert</Filter>
+    </ClInclude>
+    <ClInclude Include="lidardatacenter.h">
+      <Filter>头文件\datacenter</Filter>
+    </ClInclude>
+    <ClInclude Include="common_def.h">
+      <Filter>头文件\ussheader</Filter>
+    </ClInclude>
+    <ClInclude Include="ultrasound_def.h">
+      <Filter>头文件\ussheader</Filter>
+    </ClInclude>
+    <ClInclude Include="ultrasound_enum.h">
+      <Filter>头文件\ussheader</Filter>
+    </ClInclude>
+    <ClInclude Include="ultrasound_header.h">
+      <Filter>头文件\ussheader</Filter>
+    </ClInclude>
+    <ClInclude Include="podatacenter.h">
+      <Filter>头文件\datacenter</Filter>
+    </ClInclude>
+    <ClInclude Include="ussdatacenter.h">
+      <Filter>头文件\datacenter</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon.h">
+      <Filter>头文件\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="featurehandler.h">
+      <Filter>头文件\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="bevprocess.h">
+      <Filter>头文件\bevprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="imgconvert.h">
+      <Filter>头文件\convert</Filter>
+    </ClInclude>
+    <ClInclude Include="pcl_viewer.h">
+      <Filter>头文件\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="vehoutline.h">
+      <Filter>头文件\calibrations</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="argumentpass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
